@@ -1,0 +1,92 @@
+/*.element {
+-webkit-animation: KEYFRAME-NAME 2s infinite;
+-moz-animation:    KEYFRAME-NAME 5s infinite;
+-o-animation:      KEYFRAME-NAME 5s infinite;
+animation:         KEYFRAME-NAME 5s infinite;
+}*/
+.site-header {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  left: 0;
+  z-index: 500;
+}
+
+.page-header {
+  margin-top: 0;
+  .page-title{
+    margin-top: 0;
+  }
+}
+
+.content-area{
+  margin-top: 65px;
+}
+
+/** Comentarios */
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+    width: 50%;
+}
+
+.navbar-brand {
+  padding: 10px 15px 0 15px;
+}
+
+.image-thumbnail {
+  margin-bottom: 20px;
+}
+
+
+.well {
+  color:@color-fondo;
+  font-size: 12px;
+}
+
+.modal{
+  color:@color-fondo;
+  h4 {
+    color:@color-fondo;
+  }
+}
+.widget-area{
+  padding-top: 30px;
+}
+.widget-title{
+  font-size: 18px;
+}
+
+
+//------------- FOOTER ----------//
+.wrapfooter {
+  background-color: @gray-dark;
+  padding:20px 0;
+  border-top: 5px solid @brand-primary;
+
+  /*&:before {
+    background-image: url('../images/linea-pie.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: Italianno;
+    font-size: 30px;
+    text-align: right;
+    content: 'Paises con la misma esencia';
+    color: @white;
+  }*/
+
+  .site-footer{
+    color: @white;
+    text-align: center;
+
+    a {
+      color: @white;
+      text-transform: uppercase;
+    }
+
+    .site-info {
+      text-align: center;
+      font-size: 10px;
+    }
+  }
+}
