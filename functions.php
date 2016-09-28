@@ -1,7 +1,7 @@
 <?php
 /* Google Fonts */
 function wpb_add_google_fonts() {
-	wp_enqueue_style( 'wpb-google-fonts', '//fonts.googleapis.com/css?Merriweather:400,700|Raleway:400,700', false );
+	wp_enqueue_style( 'wpb-google-fonts', '//fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:400,700', false );
 }
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
@@ -144,8 +144,8 @@ require get_template_directory() . '/inc/extras.php';
 /**
 * Support BuddyPress
 */
-add_theme_support( 'buddypress' );
-require get_template_directory() . '/imgd/buddypress.php';
+//add_theme_support( 'buddypress' );
+//require get_template_directory() . '/imgd/buddypress.php';
 
 /**
  * IMGD additions.

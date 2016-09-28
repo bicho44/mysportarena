@@ -15,7 +15,7 @@ html {
 }
 body {
   font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.42857143;
   color: #222222;
   background-color: #fff;
@@ -72,8 +72,8 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
@@ -150,8 +150,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 22px;
-  margin-bottom: 11px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 h1 small,
 .h1 small,
@@ -173,8 +173,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 h4 small,
 .h4 small,
@@ -192,45 +192,45 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 41px;
+  font-size: 36px;
 }
 h2,
 .h2 {
-  font-size: 34px;
+  font-size: 30px;
 }
 h3,
 .h3 {
-  font-size: 28px;
+  font-size: 24px;
 }
 h4,
 .h4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 h5,
 .h5 {
-  font-size: 16px;
+  font-size: 14px;
 }
 h6,
 .h6 {
-  font-size: 14px;
+  font-size: 12px;
 }
 p {
-  margin: 0 0 11px;
+  margin: 0 0 10px;
 }
 .lead {
-  margin-bottom: 22px;
-  font-size: 18px;
+  margin-bottom: 20px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 24px;
+    font-size: 21px;
   }
 }
 small,
 .small {
-  font-size: 87%;
+  font-size: 85%;
 }
 mark,
 .mark {
@@ -336,14 +336,14 @@ a.bg-danger:focus {
   background-color: #e4b9b9;
 }
 .page-header {
-  padding-bottom: 10px;
-  margin: 44px 0 22px;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
   border-bottom: 1px solid #eeeeee;
 }
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
 }
 ul ul,
 ol ul,
@@ -367,7 +367,7 @@ ol ol {
 }
 dl {
   margin-top: 0;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 dt,
 dd {
@@ -403,9 +403,9 @@ abbr[data-original-title] {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 11px 22px;
-  margin: 0 0 22px;
-  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
   border-left: 5px solid #eeeeee;
 }
 blockquote p:last-child,
@@ -451,7 +451,7 @@ blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 address {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   font-style: normal;
   line-height: 1.42857143;
 }
@@ -467,7 +467,7 @@ address {
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.42857143;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -887,19 +887,19 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-lg {
   padding: 10px 16px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
 .btn-sm {
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
 }
 .btn-xs {
   padding: 1px 5px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -930,7 +930,7 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -1113,7 +1113,7 @@ table th[class*="col-"] {
 @media screen and (max-width: 767px) {
   .table-responsive {
     width: 100%;
-    margin-bottom: 16.5px;
+    margin-bottom: 15px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
@@ -1183,21 +1183,11 @@ table th[class*="col-"] {
 -o-animation:      KEYFRAME-NAME 5s infinite;
 animation:         KEYFRAME-NAME 5s infinite;
 }*/
-.site-header {
-  position: absolute;
-  top: 10px;
-  right: 0;
-  left: 0;
-  z-index: 500;
-}
 .page-header {
   margin-top: 0;
 }
 .page-header .page-title {
   margin-top: 0;
-}
-.content-area {
-  margin-top: 65px;
 }
 /** Comentarios */
 .comment-form-author,
@@ -1223,14 +1213,15 @@ animation:         KEYFRAME-NAME 5s infinite;
 }
 .widget-area {
   padding-top: 30px;
+  font-size: 12px;
 }
 .widget-title {
-  font-size: 18px;
+  font-size: 16px;
 }
 .wrapfooter {
-  background-color: #333333;
+  background-color: #2e5f55;
   padding: 20px 0;
-  border-top: 5px solid #2e5f55;
+  border-top: 5px solid #3e8273;
   /*&:before {
     background-image: url('../images/linea-pie.png');
     background-repeat: no-repeat;
@@ -1253,4 +1244,17 @@ animation:         KEYFRAME-NAME 5s infinite;
 .wrapfooter .site-footer .site-info {
   text-align: center;
   font-size: 10px;
+}
+.wrap-site-info {
+  background-color: #1d3d36;
+  padding: 10px 0;
+  border-top: 1px solid #3e8273;
+}
+.wrap-site-info .site-info {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+.wrap-site-info .site-info a {
+  color: white;
 }
