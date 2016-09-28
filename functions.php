@@ -142,6 +142,12 @@ require get_template_directory() . '/inc/extras.php';
 //require get_template_directory() . '/inc/customizer.php';
 
 /**
+* Support BuddyPress
+*/
+add_theme_support( 'buddypress' );
+require get_template_directory() . '/imgd/buddypress.php';
+
+/**
  * IMGD additions.
  */
 require get_template_directory() . '/imgd/imgd_funciones.php';
