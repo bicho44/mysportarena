@@ -1183,6 +1183,9 @@ table th[class*="col-"] {
 -o-animation:      KEYFRAME-NAME 5s infinite;
 animation:         KEYFRAME-NAME 5s infinite;
 }*/
+.navbar {
+  margin-bottom: 0;
+}
 .page-header {
   margin-top: 0;
 }
@@ -1212,10 +1215,10 @@ animation:         KEYFRAME-NAME 5s infinite;
   color: #fff;
 }
 .widget-area {
-  padding-top: 30px;
   font-size: 12px;
+  background-color: rgba(46, 95, 85, 0.1);
 }
-.widget-title {
+.widget-area .widget-title {
   font-size: 16px;
 }
 .wrapfooter {

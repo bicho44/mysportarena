@@ -4,6 +4,9 @@
 -o-animation:      KEYFRAME-NAME 5s infinite;
 animation:         KEYFRAME-NAME 5s infinite;
 }*/
+.navbar{
+  margin-bottom: 0;
+}
 
 .page-header {
   margin-top: 0;
@@ -43,13 +46,14 @@ animation:         KEYFRAME-NAME 5s infinite;
     color:@color-fondo;
   }
 }
-.widget-area{
-  padding-top: 30px;
+.widget-area {
   font-size: 12px;
+  background-color: fade(@brand-primary, 10%);
+  .widget-title{
+    font-size: 16px;
+  }
 }
-.widget-title{
-  font-size: 16px;
-}
+
 
 
 //------------- FOOTER ----------//
